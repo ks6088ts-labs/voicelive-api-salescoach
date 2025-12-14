@@ -27,6 +27,8 @@ param useFoundryAgents bool = false
 //   tags: union(tags, { 'azd-service-name': <service name in azure.yaml> })
 var tags = {
   'azd-env-name': environmentName
+  SecurityControl: 'Ignore'
+  CostControl: 'Ignore'
 }
 
 // Organize resources in a resource group

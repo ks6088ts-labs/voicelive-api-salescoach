@@ -21,9 +21,9 @@ urlFragment: voicelive-api-salescoach
 </p>
 <p align="center">A demo application showcasing AI-powered voice training for sales professionals, built on Azure.</p>
 <p align="center">
-   <a href="https://github.com/Azure-Samples/voicelive-api-salescoach/blob/main/LICENSE.md"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" style="height:27px; vertical-align:middle;"/></a>
-   <a href="https://github.com/Azure-Samples/voicelive-api-salescoach/actions/workflows/lint-and-test.yml"><img alt="Build Status" src="https://github.com/Azure-Samples/voicelive-api-salescoach/actions/workflows/lint-and-test.yml/badge.svg" style="height:27px; vertical-align:middle;"/></a>&nbsp;
-   <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure-Samples%2Fvoicelive-api-salescoach%2Frefs%2Fheads%2Fmain%2Finfra%2Fdeployment.json"><img src="https://aka.ms/deploytoazurebutton" alt="Deploy to Azure" style="height:27px; vertical-align:middle;"/></a>&nbsp;
+   <a href="https://github.com/ks6088ts-labs/voicelive-api-salescoach/blob/develop/LICENSE.md"><img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-green.svg" style="height:27px; vertical-align:middle;"/></a>
+   <a href="https://github.com/ks6088ts-labs/voicelive-api-salescoach/actions/workflows/lint-and-test.yml"><img alt="Build Status" src="https://github.com/ks6088ts-labs/voicelive-api-salescoach/actions/workflows/lint-and-test.yml/badge.svg" style="height:27px; vertical-align:middle;"/></a>&nbsp;
+   <a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fks6088ts-labs%2Fvoicelive-api-salescoach%2Frefs%2Fheads%2Fdevelop%2Finfra%2Fdeployment.json"><img src="https://aka.ms/deploytoazurebutton" alt="Deploy to Azure" style="height:27px; vertical-align:middle;"/></a>&nbsp;
 </p>
 
 ![Voice Live API Salescoach in Action](docs/assets/preview.png)
@@ -47,7 +47,7 @@ Voice Live API Salescoach is a demo application showcasing how AI-based training
 
 See the Voice Live API Salescoach in action:
 
-https://github.com/user-attachments/assets/904f1555-6981-4780-ae64-c5757337bcad
+<https://github.com/user-attachments/assets/904f1555-6981-4780-ae64-c5757337bcad>
 
 ### How It Works
 
@@ -66,9 +66,11 @@ https://github.com/user-attachments/assets/904f1555-6981-4780-ae64-c5757337bcad
 ### Deploy to Azure
 
 1. **Deploy to Azure**:
+
    ```bash
    azd up
    ```
+
 2. **Access your application**:
    The deployment will output the URL where your application is running.
 
@@ -85,6 +87,7 @@ This project includes a dev container for easy setup and a build script for  dev
    - Fill in your Azure AI Foundry and Speech service keys and endpoints (you can run `azd provision` to create these resources if you haven't already)
 
 3. **Build and run**
+
    ```bash
    # Build the application
    ./scripts/build.sh
@@ -120,8 +123,8 @@ The application leverages multiple Azure AI services to deliver real-time voice-
 </tr>
 </table>
 
-
 ## Contributors
+
 <p float="left">
   <a href="https://github.com/aymenfurter"><img src="https://github.com/aymenfurter.png" width="100" height="100" alt="aymenfurter" style="border-radius:50%;"/></a>
   <a href="https://github.com/curia-damiano"><img src="https://github.com/curia-damiano.png" width="100" height="100" alt="curia-damiano" style="border-radius:50%;"/></a>
@@ -132,7 +135,7 @@ The application leverages multiple Azure AI services to deliver real-time voice-
 
 This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+the rights to use your contribution. For details, visit <https://cla.opensource.microsoft.com>.
 
 When you submit a pull request, a CLA bot will automatically determine whether you need to provide
 a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
@@ -156,8 +159,6 @@ trademarks or logos is subject to and must follow
 Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
 Any use of third-party trademarks or logos are subject to those third-party's policies.
-
-
 
 <p align="center">
    <br/>

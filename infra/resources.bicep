@@ -55,6 +55,7 @@ resource aiFoundryResource 'Microsoft.CognitiveServices/accounts@2024-10-01' = {
   properties: {
     customSubDomainName: 'aifoundry-voicelab-${resourceToken}'
     publicNetworkAccess: 'Enabled'
+    disableLocalAuth: false
   }
 
   @batchSize(1)
@@ -89,6 +90,7 @@ resource speechService 'Microsoft.CognitiveServices/accounts@2024-10-01' = {
   properties: {
     customSubDomainName: 'speech-voicelab-${resourceToken}'
     publicNetworkAccess: 'Enabled'
+    disableLocalAuth: false
   }
 }
 
@@ -239,6 +241,14 @@ module voicelab 'br/public:avm/res/app/container-app:0.8.0' = {
           {
             name: 'HOST'
             value: '0.0.0.0'
+          }
+          {
+            name: 'AZURE_INPUT_TRANSCRIPTION_LANGUAGE'
+            value: 'ja-JP'
+          }
+          {
+            name:'AZURE_SPEECH_LANGUAGE'
+            value: 'ja-JP'
           }
         ]
       }
